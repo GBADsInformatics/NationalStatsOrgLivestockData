@@ -1,0 +1,231 @@
+﻿"TableInfos"
+"ID";"Title";"ShortTitle";"Identifier";"Summary";"Modified";"ReasonDelivery";"ExplanatoryText";"Language";"Catalog";"Frequency";"Period";"ShortDescription";"Description";"DefaultPresentation";"DefaultSelection";"GraphTypes";"OutputStatus";"Source";"MetaDataModified";"SearchPriority"
+"0";"Livestock pigs, 1981- 2020";"Livestock pigs, 1981- 2020";"7373eng";"Livestock pigs, number of piglets, sows and boars in April and 
+December";"2021-04-23T02:00:00";"Discontinued";"";"en";"CBS";"Discontinued";"April 1981 - December 2020";"
+This table provides twice-yearly information about the number of pigs on Dutch agricultural holdings.
+The number of pigs is broken down into:
+- type of pigs (piglets, pigs for fattening, breeding pigs);
+- reference date (April, August and December).
+
+N.B. the considerable difference between the figures for 1997 and the previous and subsequent years are caused by the swine fever outbreak in February 1997 and the following clear-outs.
+
+Data available from: April 1981 to December 2020.
+
+Status of the figures:
+The numbers are final.
+
+Changes as of April 30, 2021:
+None, this table has been discontinued.
+
+When will new figures be published?
+This table is followed by Livestock on agricultural holdings: reference date 1 April and 1 December, see the links in section 3.
+";" CONTENTS
+
+1. General information
+2. Definitions and explanation of symbols
+3. Links to relevant tables and articles
+4. Sources and methods
+5. Further information
+
+1. GENERAL INFORMATION
+
+This table provides twice-yearly information about the number of pigs on Dutch agricultural holdings.
+The number of pigs is broken down into:
+- type of pigs (piglets, pigs for fattening, breeding pigs);
+- reference date (April, August and December).
+
+N.B. the considerable difference between the figures for 1997 and the previous and subsequent years are caused by the swine fever outbreak in February 1997 and the following clear-outs.
+
+Data available from: April 1981 to December 2020.
+
+Status of the figures:
+The numbers are final.
+
+Changes as of April 30, 2021:
+None, this table has been discontinued.
+
+When will new figures be published?
+This table is followed by Livestock on agricultural holdings: reference date 1 April and 1 December, see the links in section 3.
+
+2. DEFINITIONS AND EXPLANATION OF SYMBOLS
+The figures for April are obtained from the Agricultural census (since 1997), the figures for August (up to 2009) and December are based on a sample survey among pig farmers in the Netherlands.
+
+Definitions:
+Pig population:
+Total of the pig population on agricultural holdings in the Netherlands.
+
+Explanation of symbols:
+
+Empty cell	: figure not applicable
+. 		: figure is unknown, insufficiently reliable or confidential
+*		: provisional figure 
+**		: revised provisional figure
+
+3. LINKS TO RELEVANT TABLES AND ARTICLES
+
+Relevant tables: 
+
+See for additional figures including a split up to at general farm type by regional level the following table: <a href='https://opendata.cbs.nl/statline/#/CBS/en/dataset/80783eng/table?dl=51A9B'>Agriculture; crops, livestock and land use by general farm type, region</a>
+
+<a href='https://opendata.cbs.nl/statline/#/CBS/en/dataset/84952ENG/table '>Livestock on agricultural holdings: reference date 1 April and 1 December.</a>
+
+Relevant articles: 
+General information of agriculture see theme page <a href='https://www.cbs.nl/en-gb/economy/agriculture'>Agriculture</a>. 
+
+4. SOURCES AND METHODS
+Since 2009, member states are required by the European Union to determine the pig population on agricultural holdings twice a year (in April and in December). Before 2009 the pig population was also determined in August.
+
+5. FURTHER INFORMATION
+
+<a href='https://www.cbs.nl/en-gb/about-us/contact/infoservice'>Infoservice</a>
+ 
+Copyright (c) Statistics Netherlands, The Hague/Heerlen
+Reproduction is permitted, provided Statistics Netherlands is quoted as the source.
+
+";"ts=1613047856690&graphtype=Table&r=Periods&k=Topics";"$filter=((Periods eq '2011MM12') or (Periods eq '2012MM04') or (Periods eq '2012MM12') or (Periods eq '2013MM04') or (Periods eq '2013MM12') or (Periods eq '2014MM04') or (Periods eq '2014MM12') or (Periods eq '2015MM04') or (Periods eq '2015MM12') or (Periods eq '2016MM04') or (Periods eq '2016MM12') or (Periods eq '2017MM04') or (Periods eq '2017MM12') or (Periods eq '2018MM04') or (Periods eq '2018MM12') or (Periods eq '2019MM04') or (Periods eq '2019MM12') or (Periods eq '2020MM04') or (Periods eq '2020MM12'))&$select=Periods, PigsTotal_1, PigletsRelatedToSows_2, YoungPigsTo50Kg_3, PigsForFatteningTotal50KgOrMore_4, PigsForFattening5080Kg_5, PigsForFattening80110Kg_6, PigsForFattening110KgOrMore_7, BreedingPigsTotal50KgOrMore_8, CoveredSows_9, SowsRelatedToPiglets_10, OtherBreedingPigsTotal_11, YoungSows_12, OtherBreedingPigs_13";"Table,Bar,Line";"Discontinued";"&copy Statistics Netherlands";"2021-04-30T02:00:00";"1"
+"DataProperties"
+ID;Position;ParentID;Type;Key;Title;Description;ReleasePolicy;Datatype;Unit;Decimals;Default
+"0";"0";;"TimeDimension";"Periods";"Periods";"Peildata: april, augustus en december.
+  Vanaf 1998 peildata augustus en december.";"true";;;;
+"1";"1";;"Topic";"PigsTotal_1";"Pigs, total";"Total of the pig population on agricultural holdings, present on the reference date.
+The pig population can be broken down into piglets, young pigs, pigs for fattening and breeding pigs.
+_
+N.B. the considerable difference between the figures for 1997 and the previous and subsequent years are caused by the swinefever outbreak in February 1997 and the following clearouts.
+";;"Long";"number x 1,000";"0";"Missing"
+"2";"2";;"Topic";"PigletsRelatedToSows_2";"Piglets related to sows";;;"Long";"number x 1,000";"0";"Missing"
+"3";"3";;"Topic";"YoungPigsTo50Kg_3";"Young pigs, to 50 kg";"Piglets with a live weight of less than 50 kg.
+Weaned piglets (piglets no longer suckling at the sow) and young pigs for fattening or breeding weighing less than 50 kg.
+";;"Long";"number x 1,000";"0";"Missing"
+"4";;;"TopicGroup";"";"Pigs for fattening, 50 kg or more";"Fattening pigs (including rejected boars and sows) of at least 50 kg.
+_
+Sows and boars for fattening: pigs taken out of breedingproduction for fattening to be slaughtered.
+";;;;;
+"5";"4";"4";"Topic";"PigsForFatteningTotal50KgOrMore_4";"Pigs for fattening, total 50 kg or more";;;"Long";"number x 1,000";"0";"Missing"
+"6";"5";"4";"Topic";"PigsForFattening5080Kg_5";"Pigs for fattening, 50 -< 80 kg";"Fattening pigs between 50 and 80 kg.";;"Long";"number x 1,000";"0";"Missing"
+"7";"6";"4";"Topic";"PigsForFattening80110Kg_6";"Pigs for fattening, 80 -< 110 kg";"Fattening pigs between 80 and 110 kg.";;"Long";"number x 1,000";"0";"Missing"
+"8";"7";"4";"Topic";"PigsForFattening110KgOrMore_7";"Pigs for fattening, 110 kg or more";"Fattening pigs of at least 110 kg.";;"Long";"number x 1,000";"0";"Missing"
+"9";;;"TopicGroup";"";"Breeding pigs, 50 kg or more";"Breeding pigs with a live weight of 50 kg or more.";;;;;
+"10";"8";"9";"Topic";"BreedingPigsTotal50KgOrMore_8";"Breeding pigs, total 50 kg or more";;;"Double";"number x 1,000";"0";"Missing"
+"11";"9";"9";"Topic";"CoveredSows_9";"Covered sows";"Covered or artificially inseminated sows, assumed to be pregnant on the reference date.";;"Long";"number x 1,000";"0";"Missing"
+"12";"10";"9";"Topic";"SowsRelatedToPiglets_10";"Sows related to piglets";"Suckling sows until their piglets are weaned. Weaned piglets are permanently withdrawn from the suckling sow.
+";;"Long";"number x 1,000";"0";"Missing"
+"13";;"9";"TopicGroup";"";"Other breeding pigs";"Covered but not pregnant sows, unfertilised sows (sows in a period of infertility between suckling and insemination), never inseminated young sows and young breeding boars (= immature boars) and mature boars (= male pigs used for artificial insemination or natural covering).";;;;;
+"14";"11";"13";"Topic";"OtherBreedingPigsTotal_11";"Other breeding pigs, total";;;"Long";"number x 1,000";"0";"Missing"
+"15";"12";"13";"Topic";"YoungSows_12";"Young sows";"Gilts, not yet covered.";;"Long";"number x 1,000";"0";"Missing"
+"16";"13";"13";"Topic";"OtherBreedingPigs_13";"Other breeding pigs";"Covered but not pregnant sows, unfertilised sows (sows in a period of infertility between suckling and insemination), never inseminated young sows and young breeding boars (= immature boars) and mature boars (= male pigs used for artificial insemination or natural covering).";;"Double";"number x 1,000";"0";"Missing"
+"Periods"
+Key;Title;Description;Status
+"1981MM04";"1981 1 April";;"Definitief"
+"1981MM08";"1981 1 August";;"Definitief"
+"1981MM12";"1981 1 December";;"Definitief"
+"1982MM04";"1982 1 April";;"Definitief"
+"1982MM08";"1982 1 August";;"Definitief"
+"1982MM12";"1982 1 December";;"Definitief"
+"1983MM04";"1983 1 April";;"Definitief"
+"1983MM08";"1983 1 August";;"Definitief"
+"1983MM12";"1983 1 December";;"Definitief"
+"1984MM04";"1984 1 April";;"Definitief"
+"1984MM08";"1984 1 August";;"Definitief"
+"1984MM12";"1984 1 December";;"Definitief"
+"1985MM04";"1985 1 April";;"Definitief"
+"1985MM08";"1985 1 August";;"Definitief"
+"1985MM12";"1985 1 December";;"Definitief"
+"1986MM04";"1986 1 April";;"Definitief"
+"1986MM08";"1986 1 August";;"Definitief"
+"1986MM12";"1986 1 December";;"Definitief"
+"1987MM04";"1987 1 April";;"Definitief"
+"1987MM08";"1987 1 August";;"Definitief"
+"1987MM12";"1987 1 December";;"Definitief"
+"1988MM04";"1988 1 April";;"Definitief"
+"1988MM08";"1988 1 August";;"Definitief"
+"1988MM12";"1988 1 December";;"Definitief"
+"1989MM04";"1989 1 April";;"Definitief"
+"1989MM08";"1989 1 August";;"Definitief"
+"1989MM12";"1989 1 December";;"Definitief"
+"1990MM04";"1990 1 April";;"Definitief"
+"1990MM08";"1990 1 August";;"Definitief"
+"1990MM12";"1990 1 December";;"Definitief"
+"1991MM04";"1991 1 April";;"Definitief"
+"1991MM08";"1991 1 August";;"Definitief"
+"1991MM12";"1991 1 December";;"Definitief"
+"1992MM04";"1992 1 April";;"Definitief"
+"1992MM08";"1992 1 August";;"Definitief"
+"1992MM12";"1992 1 December";;"Definitief"
+"1993MM04";"1993 1 April";;"Definitief"
+"1993MM08";"1993 1 August";;"Definitief"
+"1993MM12";"1993 1 December";;"Definitief"
+"1994MM04";"1994 1 April";;"Definitief"
+"1994MM08";"1994 1 August";;"Definitief"
+"1994MM12";"1994 1 December";;"Definitief"
+"1995MM04";"1995 1 April";;"Definitief"
+"1995MM08";"1995 1 August";;"Definitief"
+"1995MM12";"1995 1 December";;"Definitief"
+"1996MM04";"1996 1 April";;"Definitief"
+"1996MM08";"1996 1 August";;"Definitief"
+"1996MM12";"1996 1 December";;"Definitief"
+"1997MM04";"1997 1 April";"Since 1997 reference date 1 April: the figures are obtained from the Agricultural census, reference date 1 April.
+_
+N.B. the considerable difference between the figures for 1997 and the previous and subsequent years are caused by the swine fever outbreak in February 1997 and the following clearouts.";"Definitief"
+"1997MM08";"1997 1 August";"N.B. the considerable difference between the figures for
+1997 and the previous and subsequent years are caused by the swine
+fever outbreak in February 1997 and the following clearouts.";"Definitief"
+"1997MM12";"1997 1 December";"N.B. the considerable difference between the figures for
+1997 and the previous and subsequent years are caused by the swine
+fever outbreak in February 1997 and the following clearouts.";"Definitief"
+"1998MM04";"1998 1 April";;"Definitief"
+"1998MM08";"1998 1 August";;"Definitief"
+"1998MM12";"1998 1 December";;"Definitief"
+"1999MM04";"1999 1 April";;"Definitief"
+"1999MM08";"1999 1 August";;"Definitief"
+"1999MM12";"1999 1 December";;"Definitief"
+"2000MM04";"2000 1 April";;"Definitief"
+"2000MM08";"2000 1 August";;"Definitief"
+"2000MM12";"2000 1 December";;"Definitief"
+"2001MM04";"2001 1 April";;"Definitief"
+"2001MM08";"2001 1 August";;"Definitief"
+"2001MM12";"2001 1 December";"";"Definitief"
+"2002MM04";"2002 1 April";;"Definitief"
+"2002MM08";"2002 1 August";;"Definitief"
+"2002MM12";"2002 1 December";;"Definitief"
+"2003MM04";"2003 1 April";;"Definitief"
+"2003MM08";"2003 1 August";;"Definitief"
+"2003MM12";"2003 1 December";;"Definitief"
+"2004MM04";"2004 1 April";;"Definitief"
+"2004MM08";"2004 1 August";;"Definitief"
+"2004MM12";"2004 1 December";;"Definitief"
+"2005MM04";"2005 1 April";;"Definitief"
+"2005MM08";"2005 1 August";;"Definitief"
+"2005MM12";"2005 1 December";;"Definitief"
+"2006MM04";"2006 1 April";;"Definitief"
+"2006MM08";"2006 1 August";;"Definitief"
+"2006MM12";"2006 1 December";;"Definitief"
+"2007MM04";"2007 1 April";;"Definitief"
+"2007MM08";"2007 1 August";;"Definitief"
+"2007MM12";"2007 1 December";;"Definitief"
+"2008MM04";"2008 1 April";;"Definitief"
+"2008MM08";"2008 1 August";;"Definitief"
+"2008MM12";"2008 1 December";;"Definitief"
+"2009MM04";"2009 1 April";;"Definitief"
+"2009MM12";"2009 1 December";;"Definitief"
+"2010MM04";"2010 1 April";;"Definitief"
+"2010MM12";"2010 1 December";;"Definitief"
+"2011MM04";"2011 1 April";;"Definitief"
+"2011MM12";"2011 1 December";;"Definitief"
+"2012MM04";"2012 1 April";"";"Definitief"
+"2012MM12";"2012 1 December";"";"Definitief"
+"2013MM04";"2013 1 April";"";"Definitief"
+"2013MM12";"2013 1 December";;"Definitief"
+"2014MM04";"2014 1 April";;"Definitief"
+"2014MM12";"2014 1 December";"";"Definitief"
+"2015MM04";"2015 1 April";"";"Definitief"
+"2015MM12";"2015 1 December";"";"Definitief"
+"2016MM04";"2016 1 April";"";"Definitief"
+"2016MM12";"2016 1 December";"";"Definitief"
+"2017MM04";"2017 1 April";"";"Definitief"
+"2017MM12";"2017 1 December";"";"Definitief"
+"2018MM04";"2018 1 April";"";"Definitief"
+"2018MM12";"2018 1 December";"";"Definitief"
+"2019MM04";"2019 1 April";"";"Definitief"
+"2019MM12";"2019 1 December";"";"Definitief"
+"2020MM04";"2020 1 April";"";"Definitief"
+"2020MM12";"2020 1 December";"";"Definitief"

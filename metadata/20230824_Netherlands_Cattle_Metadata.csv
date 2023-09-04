@@ -1,0 +1,189 @@
+﻿"TableInfos"
+"ID";"Title";"ShortTitle";"Identifier";"Summary";"Modified";"ReasonDelivery";"ExplanatoryText";"Language";"Catalog";"Frequency";"Period";"ShortDescription";"Description";"DefaultPresentation";"DefaultSelection";"GraphTypes";"OutputStatus";"Source";"MetaDataModified";"SearchPriority"
+"0";"Livestock cattle, 2008 - 2020";"Livestock cattle 2008 - 2020";"80274eng";"Livestock cattle, position of dairy cattle and cattle for fattening
+according to Agricultural Census and Earmark registration";"2021-04-23T02:00:00";"Discontinued";"";"en";"CBS";"Discontinued";"December 2008 - December 2020";"
+This table provides information about the number of cattle on Dutch agricultural holdings. In addition to numbers, cattle are broken down by: cattle kept for the production of milk and cattle for fattening. The cattle population is counted on 1 April and 1 December.
+
+Data available from: 1 December 2008 to 1 December 2020.
+
+Status of the figures:
+The numbers are final.
+
+Changes as of April 30, 2021:
+None, this table has been discontinued.
+
+When will new figures be published?
+This table is followed by Livestock on agricultural holdings: reference date 1 April and 1 December, see the links in section 3.
+";"CONTENTS
+
+1. General information
+2. Definitions and explanation of symbols
+3. Links to relevant tables and articles
+4. Sources and methods
+5. Further information
+
+1. GENERAL INFORMATION
+
+This table provides information about the number of cattle on Dutch agricultural holdings. In addition to numbers, cattle are broken down by: cattle kept for the production of milk and cattle for fattening. The cattle population is counted on 1 April and 1 December.
+
+Data available from: 1 December 2008 to 1 December 2020.
+
+Status of the figures:
+The numbers are final.
+
+Changes as of April 30, 2021:
+None, this table has been discontinued.
+
+When will new figures be published?
+This table is followed by Livestock on agricultural holdings: reference date 1 April and 1 December, see the links in section 3.
+
+2. DEFINITIONS AND EXPLANATION OF SYMBOLS
+
+Definitions:
+Cattle population: 
+For 1 April counts: total of the number of cattle in the Netherlands on agricultural holdings, of 3,000 Euro SO or more. 
+For 1 December counts: Up to and including 2017, the total number of animals from the I&R register (Identification an Registration of animals) was used and the distribution over the animal species of the agricultural census (reference date 1 April) was applied to this. From 2018 onwards, the method has been changed and is now fully in line with the methodology and the population of the agricultural census. The change has virtually no effect on the number of animals. 
+
+SO: Standard Output
+A standardised measure for the economic size of agricultural holdings, based on the average annual output from crops or animal categories.
+An SO standard is determined for each crop and animal category based on average output values over a period of five years. The SO standards are recalculated every three years. The SO for a holding is calculated by summing the total SO for each crop and animal category. The SO is expressed in Euro.
+
+Explanation of symbols:
+
+Empty cell	: figure not applicable
+. 		: figure is unknown, insufficiently reliable or confidential
+*		: provisional figure 
+**		: revised provisional figure
+
+3. LINKS TO RELEVANT TABLES AND ARTICLES
+
+Relevant tables: 
+
+See for additional figures including a split up to at general farm type by regional level the following table.<a href='https://opendata.cbs.nl/statline/#/CBS/en/dataset/80783eng/table?dl=51A9B'> Agriculture; crops, livestock and land use by general farm type, region</a>
+
+<a href='https://opendata.cbs.nl/statline/#/CBS/en/dataset/84952ENG/table'>Livestock on agricultural holdings: reference date 1 April and 1 December, see the links in section 3.</a>
+
+Relevant articles: 
+
+General information of agriculture see theme page <a href='https://www.cbs.nl/en-gb/economy/agriculture'>Agriculture</a>.
+
+4. SOURCES AND METHODS
+
+The European Union requires member states to determine the cattle population on agricultural holdings twice a year(in April and November/December). 
+The 1 April counts are entirely based on information from the annual agricultural census ('Landbouwtelling'). The 1 December counts are based on the ear tag registration of the Ministry of Economic Affairs. 
+
+5. FURTHER INFORMATION
+
+<a href='http://www.cbs.nl/en-GB/menu/informatie/publiek/inlichtingen/default.htm'>Infoservice</a>
+
+Copyright (c) Statistics Netherlands, The Hague/Heerlen
+Reproduction is permitted, provided Statistics Netherlands is quoted as the source.";"ts=1612941971624&graphtype=Table&r=Topics&k=Periods";"$filter=((Periods eq '2015MM04') or (Periods eq '2015MM12') or (Periods eq '2017MM04') or (Periods eq '2017MM12') or (Periods eq '2018MM04') or (Periods eq '2018MM12') or (Periods eq '2019MM04') or (Periods eq '2019MM12') or (Periods eq '2020MM04') or (Periods eq '2020MM12'))&$select=Periods, CattleTotal_1, YoungCattleForMilkTotal_2, YoungCattleForMilk1YearFemale_3, YoungCattleForMilk1YearMale_4, YoungCattleForMilk12YearsFemale_5, YoungCattleForMilk12YearsMale_6, YoungCattleForMilk2YrsFemale_7, CalvesForFatteningTotal_8, CalvesForRoseMeat1Yr_9, CalvesForWhiteMeat1Yr_10, YoungCattleForFatteningTotal_11, YoungCattleForFattening1YrFemale_12, YoungCattleForFattening1YrMale_13, YoungCattleForFattening12YrFemale_14, YoungCattleForFattening12YrMale_15, YoungCattleForFattening2YrFemale_16, DairyCows2Years_17, OtherCowsTotal_18, CowsForFattening2Years_19, SucklingCows2Years_20, Bulls2YearsTotal_21, BullsForBreeding2Years_22, BullsForFattening2Years_23";"Table,Bar,Line";"Discontinued";"&copy Statistics Netherlands, NEA";"2021-04-30T02:00:00";"1"
+"DataProperties"
+ID;Position;ParentID;Type;Key;Title;Description;ReleasePolicy;Datatype;Unit;Decimals;Default
+"0";"0";;"TimeDimension";"Periods";"Periods";"";"true";;;;
+"1";"1";;"Topic";"CattleTotal_1";"Cattle, total";"For 1 April counts: total of the number of cattle in the Netherlands on agricultural holdings, of 3,000 Euro SO or more.
+_
+The 1 December counts are based on the ear tag registration of the Ministry of Economic Affairs, Agriculture and Innovation.
+";;"Long";"x 1 000";"0";"Missing"
+"2";;;"TopicGroup";"";"Young cattle for milk";"Cattle kept for the production of milk or for breeding.";;;;;
+"3";"2";"2";"Topic";"YoungCattleForMilkTotal_2";"Young cattle for milk, total";"";;"Long";"x 1 000";"0";"Missing"
+"4";"3";"2";"Topic";"YoungCattleForMilk1YearFemale_3";"Young cattle for milk, < 1 year, female";"Young cattle for dairy farming, aged less than 1 year, female.
+
+";;"Long";"x 1 000";"0";"Missing"
+"5";"4";"2";"Topic";"YoungCattleForMilk1YearMale_4";"Young cattle for milk, < 1 year, male";"Young  cattle for dairy farming, aged less than 1 year, male.
+";;"Long";"x 1 000";"0";"Missing"
+"6";"5";"2";"Topic";"YoungCattleForMilk12YearsFemale_5";"Young cattle for milk, 1-2 years, female";"Young cattle for dairy farming, aged between 1 and 2 years, female.
+";;"Long";"x 1 000";"0";"Missing"
+"7";"6";"2";"Topic";"YoungCattleForMilk12YearsMale_6";"Young cattle for milk, 1-2 years, male";"Young cattle for dairy farming, aged between 1 and 2 years, male.
+";;"Long";"x 1 000";"0";"Missing"
+"8";"7";"2";"Topic";"YoungCattleForMilk2YrsFemale_7";"Young cattle for milk, >= 2 yrs, female";"Young cattle for dairy farming, aged 2 years or older, female (never calved).
+";;"Long";"x 1 000";"0";"Missing"
+"9";;;"TopicGroup";"";"Calves for fattening ";"Calves for the production of white meat and rosé meat (aged less than 1 year).
+
+";;;;;
+"10";"8";"9";"Topic";"CalvesForFatteningTotal_8";"Calves for fattening, total";"";;"Long";"x 1 000";"0";"Missing"
+"11";"9";"9";"Topic";"CalvesForRoseMeat1Yr_9";"Calves for rosé meat (< 1 yr)";"Calves for fattening of the production of rosé meat (aged less than 1 year).
+";;"Long";"x 1 000";"0";"Missing"
+"12";"10";"9";"Topic";"CalvesForWhiteMeat1Yr_10";"Calves for white meat (< 1 yr)";"Calves for fattening of the production of white meat (aged less than 1 year).";;"Long";"x 1 000";"0";"Missing"
+"13";;;"TopicGroup";"";"Young cattle for fattening";;;;;;
+"14";"11";"13";"Topic";"YoungCattleForFatteningTotal_11";"Young cattle for fattening, total";"Young cattle kept for fattening.
+";;"Long";"x 1 000";"0";"Missing"
+"15";"12";"13";"Topic";"YoungCattleForFattening1YrFemale_12";"Young cattle for fattening,<1 yr, female";"Young cattle for fattening, aged less than 1 year, female.
+";;"Long";"x 1 000";"0";"Missing"
+"16";"13";"13";"Topic";"YoungCattleForFattening1YrMale_13";"Young cattle for fattening, < 1 yr, male";"Young cattle for fattening (including beef), aged less than 1 year, male.
+";;"Long";"x 1 000";"0";"Missing"
+"17";"14";"13";"Topic";"YoungCattleForFattening12YrFemale_14";"Young cattle for fattening,1-2 yr,female";"Young cattle for fattening, aged between 1 and 2 years, female.
+";;"Long";"x 1 000";"0";"Missing"
+"18";"15";"13";"Topic";"YoungCattleForFattening12YrMale_15";"Young cattle for fattening, 1-2 yr, male";"Young cattle for fattening, aged between 1 and 2 years, male.
+";;"Long";"x 1 000";"0";"Missing"
+"19";"16";"13";"Topic";"YoungCattleForFattening2YrFemale_16";"Young cattle for fattening>= 2 yr,female";"Young cattle for fattening, aged 2 years or older, female (never calved).	
+";;"Long";"x 1 000";"0";"Missing"
+"20";"17";;"Topic";"DairyCows2Years_17";"Dairy cows (>= 2 years)";"Female bovine animals aged 2 years or older, that have calved at least once, and are kept for the production of milk or for breeding; includes dry cows (cows that temporarily do not produce milk because they are in calf).";;"Long";"x 1 000";"0";"Missing"
+"21";;;"TopicGroup";"";"Other cows";"Cows of 2 years and older, like  cull cows that are fattened for slaughtering, and suckling  cows.";;;;;
+"22";"18";"21";"Topic";"OtherCowsTotal_18";"Other cows, total";"From 2013 the separate observation of underlying categories is discontinued; only the total  remains available.";;"Long";"x 1 000";"0";"Missing"
+"23";"19";"21";"Topic";"CowsForFattening2Years_19";"Cows for fattening (>= 2 years)";"Cows aged 2 years or older, that are fattened after having calved at least once; includes cull dairy cows (cows taken out of milk production to be slaughtered).
+";;"Long";"x 1 000";"0";"Missing"
+"24";"20";"21";"Topic";"SucklingCows2Years_20";"Suckling cows (>= 2 years)";"Suckling cows aged 2 years or older (calved at least once).
+
+Suckling cows are cows bred for fattening, whose nursing calvesare allowed to suckle and that therefore do not produce milk.
+";;"Long";"x 1 000";"0";"Missing"
+"25";;;"TopicGroup";"";"Bulls (>= 2 years)";"Bulls of 2 years and older kept  for breeding or for slaughtering.
+
+";;;;;
+"26";"21";"25";"Topic";"Bulls2YearsTotal_21";"Bulls (>= 2 years), total";"From 2013 the separate observation of underlying categories is discontinued; only the total  remains available.";;"Long";"x 1 000";"0";"Missing"
+"27";"22";"25";"Topic";"BullsForBreeding2Years_22";"Bulls for breeding (>= 2 years)";"Bulls for  breeding aged 2 years or older.
+";;"Long";"x 1 000";"0";"Missing"
+"28";"23";"25";"Topic";"BullsForFattening2Years_23";"Bulls for fattening (>= 2 years)";"Bulls for fattening aged 2 years or older.";;"Long";"x 1 000";"0";"Missing"
+"Periods"
+Key;Title;Description;Status
+"2008MM12";"2008 1 December";"The 1 December counts are based on the ear tag
+registration of the Ministry of Economic Affairs,
+Agriculture and Innovation.
+_
+The breakdown of cattle into categories in accordance
+with the annual Agricultural census of 1 April of the same
+year is used for the 1 December counts.";"Definitief"
+"2009MM04";"2009 1 April";"The 1 April counts are entirely based on
+information from the annual agricultural census ('Landbouwtelling').";"Definitief"
+"2009MM12";"2009 1 December";"The 1 December counts are based on the ear tag
+registration of the Ministry of Economic Affairs,
+Agriculture and Innovation.
+_
+The breakdown of cattle into categories in accordance
+with the annual Agricultural census of 1 April of the same
+year is used for the 1 December counts.";"Definitief"
+"2010MM04";"2010 1 April";"The 1 April counts are entirely based on
+information from the annual agricultural census ('Landbouwtelling').";"Definitief"
+"2010MM12";"2010 1 December";"The 1 December counts are based on the ear tag
+registration of the Ministry of Economic Affairs,
+Agriculture and Innovation.
+_
+The breakdown of cattle into categories in accordance
+with the annual Agricultural census of 1 April of the same
+year is used for the 1 December counts.";"Definitief"
+"2011MM04";"2011 1 April";;"Definitief"
+"2011MM12";"2011 1 December";"The 1 December counts are based on the ear tag
+registration of the Ministry of Economic Affairs,
+Agriculture and Innovation.
+_
+The breakdown of cattle into categories in accordance
+with the annual Agricultural census of 1 April of the same
+year is used for the 1 December counts.";"Definitief"
+"2012MM04";"2012 1 April";"";"Definitief"
+"2012MM12";"2012 1 December";;"Definitief"
+"2013MM04";"2013 1 April";;"Definitief"
+"2013MM12";"2013 1 December";;"Definitief"
+"2014MM04";"2014 1 April";"";"Definitief"
+"2014MM12";"2014 1 December";"";"Definitief"
+"2015MM04";"2015 1 April";"";"Definitief"
+"2015MM12";"2015 1 December";"";"Definitief"
+"2016MM04";"2016 1 April";"";"Definitief"
+"2016MM12";"2016 1 December";"";"Definitief"
+"2017MM04";"2017 April";"";"Definitief"
+"2017MM12";"2017 December";"";"Definitief"
+"2018MM04";"2018 April";"";"Definitief"
+"2018MM12";"2018 December";"";"Definitief"
+"2019MM04";"2019 April";"";"Definitief"
+"2019MM12";"2019 December";"";"Definitief"
+"2020MM04";"2020 April";"";"Definitief"
+"2020MM12";"2020 December";"";"Definitief"

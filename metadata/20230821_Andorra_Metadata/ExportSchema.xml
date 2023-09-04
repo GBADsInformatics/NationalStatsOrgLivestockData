@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:ns4="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/registry" xmlns:ns3="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:s="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:ns5="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/utility" xmlns:ns6="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query">
+  <Header>
+    <ID>IDREF8077</ID>
+    <Test>false</Test>
+    <Prepared>21/08/2023 16:24:22</Prepared>
+    <Sender id="Unknown"/>
+    <Receiver id="Unknown"/>
+  </Header>
+  <CategorySchemes/>
+  <CodeLists/>
+  <Concepts>
+    <s:ConceptScheme id="ESTAT_ADD_CONCEPTS" agencyID="ESTAT" version="3.0" uri="http://intragate.ec.europa.eu/sdmxregistry/rest/conceptscheme/ESTAT/ESTAT_ADD_CONCEPTS/3.0" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=ESTAT:ESTAT_ADD_CONCEPTS(3.0)" isExternalReference="false" isFinal="false">
+      <s:Name xml:lang="en">Eurostat (additional) concepts</s:Name>
+      <s:Description xml:lang="en">These concepts are defined in order to be used in Euro-SDMX MSD due to the fact that no relevant concept is defined in the Cross-Domain Concepts Scheme (CDC).</s:Description>
+
+       
+
+    </s:ConceptScheme>
+  </Concepts>
+</Structure>

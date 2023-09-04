@@ -1,0 +1,60 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Number of sheep and lambs on farms","32100129","003-0031","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210012901",1;2,"CURRENT - a cube available to the public and that is current","Annual","1906-01-01","2023-01-01","3",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Livestock",,""
+"3","Survey date",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"1","Eastern provinces","","12","1","",,
+"1","Newfoundland and Labrador","[10]","2","12","",,
+"1","Prince Edward Island","[11]","3","12","",,
+"1","Nova Scotia","[12]","4","12","",,
+"1","New Brunswick","[13]","5","12","",,
+"1","Quebec","[24]","6","12","",,
+"1","Ontario","[35]","7","12","",,
+"1","Western provinces","","13","1","",,
+"1","Manitoba","[46]","8","13","",,
+"1","Saskatchewan","[47]","9","13","",,
+"1","Alberta","[48]","10","13","",,
+"1","British Columbia","[59]","11","13","",,
+"2","Sheep and lambs, total","","1","","",,
+"2","Sheep, 1 year or older","","2","1","",,
+"2","Rams","","3","2","",,
+"2","Ewes","","4","2","",,
+"2","Lambs, under 1 year","","5","1","",,
+"2","Lambs for breeding","","6","5","",,
+"2","Lambs for marketing","","7","5","",,
+"3","At January 1","","1","","",,
+"3","At July 1","","2","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3460","Livestock Survey"
+
+"Subject Code","Subject Name"
+"32","Agriculture and food"
+
+"Note ID",Note
+1,"There are no estimates for December 1, 1973, due to the change in the survey date to January 1, which began in 1974. Beginning in 1975, the June 1 survey date was changed to July 1. Beginning in July 1, 1976, Newfoundland and Labrador is included in the Canada total."
+2,"The inventory data for each period cannot be aggregated to make an annual total. The inventory data is a count at a specific point in time."
+
+"Correction ID","Correction Date","Correction Note"

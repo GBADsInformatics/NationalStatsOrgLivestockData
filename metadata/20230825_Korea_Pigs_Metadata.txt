@@ -1,0 +1,13 @@
+<Statistics metadata>
+
+○ Table ID : DT_1EO312
+
+○ Table Name : Number of pig by city and province/age
+
+○ Source : KOSIS(Source: Statistics Korea, Livestock Statistics Survey), 2023.08.25 22:41
+
+○ Table URL : https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1EO312&language=en&conn_path=I3
+              * The URL for a statistical table may change in case of the KOSIS revision.
+
+○ Unit : Number Heads
+
