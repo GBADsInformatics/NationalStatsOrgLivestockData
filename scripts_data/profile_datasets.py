@@ -67,8 +67,6 @@ def detect_start_end(df):
 
     # Find number of values that are not null 
     n_values = np.logical_not(df.isnull()).sum(axis=1)
-
-    # Get max number (number of columns)
     max = n_values.max()
 
     # Define where table likely starts and ends 
@@ -77,10 +75,7 @@ def detect_start_end(df):
     # Define where metadata might be 
     md_start_end = n_values <= (max-1)
 
-    # Cols to keep 
     indexes = table_start_end[table_start_end].index
-
-    # Potential metadata indices 
     md_indexes = md_start_end[md_start_end].index
 
     return(indexes, md_indexes)
