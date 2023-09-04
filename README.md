@@ -8,5 +8,12 @@ This repository holds the data cleaning scripts used to harmonize the format of 
 
 The project is currently under development - more information about scripts and methodology will be added as the project continues.
 
+## Get file formats
+
+The first step of preprocessing is to get all file formats: 
+`python get_file_formats.py ../raw_data ../logs`
+
+Then, we figure out which of the excel files are workbooks and which are just one page. For any that are workbooks, we split the files up and place them in the preprocessing directory and create a log `workbooks.txt`
+
 Author: Kassy Raymond
 Email: kraymond@uoguelph.ca

@@ -3,6 +3,15 @@ import pandas as pd
 import sys
 import numpy as np 
 
+def detect_format(file_name):
+    """
+    detects file format and returns a tuple of the file name and the format
+    """
+    format = file_name.split('.')[1]
+
+    return(file_name, format)
+
+
 def detect_excel(files): 
     """
     Detects excel files from a list of files.
@@ -16,9 +25,10 @@ def detect_excel(files):
 
     return(excel)
 
+
 def calc_wb_tab(file):
     """
-    Calculate the number of tabs in a workbook. Returns names of files that have more than one tab.
+    Calculate the number of tabs in a workbook. Returns 1 if has more than one tab
     """
     df = pd.ExcelFile(file)
 
