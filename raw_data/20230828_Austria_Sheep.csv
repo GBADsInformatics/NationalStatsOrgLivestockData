@@ -1,0 +1,45 @@
+STATcube
+
+"Sheep and goat livestock as of 1997 (Q)"
+"Key data by sheep"
+"Counting: Number of sheep"
+
+Filters:
+"Default Summation","Number of sheep"
+
+"sheep","Ewes and ewe-lambs put to the ram","Ewes and ewe-lambs put to the ram - Annotations","Other sheep","Other sheep - Annotations","Not classifiable","Not classifiable - Annotations",
+"Key data",
+"2022",234002,,166662,,-,,
+"1997",197677,,185978,,-,,
+"1998",193713,,167099,,-,,
+"1999",229297,,122980,,-,,
+"2000",217809,,121429,,-,,
+"2001",207204,,113263,,-,,
+"2002",203548,,100816,,-,,
+"2003",214728,,110767,,-,,
+"2004",216560,,110603,,-,,
+"2005",217333,,108395,,-,,
+"2006",203894,,108481,,-,,
+"2007",228950,,122379,,-,,
+"2008",216681,,116500,,-,,
+"2009",215216,,129493,,-,,
+"2010",223678,,134737,,-,,
+"2011",225592,,135591,,-,,
+"2012",220587,,144058,,-,,
+"2013",217856,,139584,,-,,
+"2014",211394,,137693,,-,,
+"2015",217430,,136280,,-,,
+"2016",226341,,152040,,-,,
+"2017",241867,,159613,,-,,
+"2018",242103,,164233,,-,,
+"2019",240914,,161744,,-,,
+"2020",235299,,158465,,-,,
+"2021",240063,,162282,,-,,
+
+
+Symbol,Description
+"Q","STATcube – Statistical Database of STATISTICS AUSTRIA"
+"Sheep and goat livestock as of 1997",".) Subject of the statistics: Statistics on sheep and goat livestock as of 1997 held on livestock holdings in Austria. .) Important note: Classifications for sheep and for goats must not be crossed with each other nor with the respective other values. Values for sheep are further differentiated under the classification “sheep”. Values for goats are further differentiated under the classification “goats”. For both groups, there is a regional breakdown by provinces/Laender. .) Current legal basis: Regulation (EC) No 1165/2008 of 19 November 2008 concerning livestock and meat statistics National legal basis BGBl II No. 163/2012 .) Updating: Time series adjustment three months after the reference day of the survey (1 December). Last update: [2023-02-15] .) Contact details: Directorate Spatial Statistics - Animal Production, Consumer Health Information System Martina Wiesinger, phone +43 1 711 28-7959 tiere@statistik.gv.at Other Metadata: https://statistik.gv.at/en/statistics/agriculture-and-forestry/animals-animal-production/livestock/annual-livestock"
+
+
+(c) Copyright Statistics Austria
