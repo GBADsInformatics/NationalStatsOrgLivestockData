@@ -59,44 +59,31 @@ def split_tab_save(file, outpath):
         if not df.empty:
             df.to_csv(out_file, index = False)
 
-def parse_excel_sheet(file, sheet_name, threshold=5):
-    '''parses multiple tables from an excel sheet into multiple data frame objects. Returns [dfs, df_mds], where dfs is a list of data frames and df_mds their potential associated metadata'''
-    xl = pd.ExcelFile(file, sheet_name=sheet_name)
-    entire_sheet = xl.parse(sheet_name=sheet_name)
+def detect_start_end(df):
 
-    # count the number of non-Nan cells in each row and then the change in that number between adjacent rows
-    n_values = np.logical_not(entire_sheet.isnull()).sum(axis=1)
-    n_values_deltas = n_values[1:] - n_values[:-1].values
+    """
+    Finds the start and end of datasets and potential metadata start/end
+    """
 
-    # define the beginnings and ends of tables using delta in n_values
-    table_beginnings = n_values_deltas > threshold
-    table_beginnings = table_beginnings[table_beginnings].index
-    table_endings = n_values_deltas < -threshold
-    table_endings = table_endings[table_endings].index
-    if len(table_beginnings) < len(table_endings) or len(table_beginnings) > len(table_endings)+1:
-        raise BaseException('Could not detect equal number of beginnings and ends')
+    # Find number of values that are not null 
+    n_values = np.logical_not(df.isnull()).sum(axis=1)
 
-    # look for metadata before the beginnings of tables
-    md_beginnings = []
-    for start in table_beginnings:
-        md_start = n_values.iloc[:start][n_values==0].index[-1] + 1
-        md_beginnings.append(md_start)
+    # Get max number (number of columns)
+    max = n_values.max()
 
-    # make data frames
-    dfs = []
-    df_mds = []
-    for ind in range(len(table_beginnings)):
-        start = table_beginnings[ind]+1
-        if ind < len(table_endings):
-            stop = table_endings[ind]
-        else:
-            stop = entire_sheet.shape[0]
-        df = xl.parse(sheet_name=sheet_name, skiprows=start, nrows=stop-start)
-        dfs.append(df)
+    # Define where table likely starts and ends 
+    table_start_end = n_values >= (max-1)
 
-        md = xl.parse(sheet_name=sheet_name, skiprows=md_beginnings[ind], nrows=start-md_beginnings[ind]-1).dropna(axis=1)
-        df_mds.append(md)
-    return dfs, df_mds
+    # Define where metadata might be 
+    md_start_end = n_values <= (max-1)
+
+    # Cols to keep 
+    indexes = table_start_end[table_start_end].index
+
+    # Potential metadata indices 
+    md_indexes = md_start_end[md_start_end].index
+
+    return(indexes, md_indexes)
 
 if __name__ == "__main__":
 

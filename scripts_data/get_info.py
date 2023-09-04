@@ -5,7 +5,7 @@ import sys
 import os
 
 # Get list of files in the data dir 
-files = os.listdir('/Users/kassyraymond/Documents/PhD/Experiment1/data')
+files = os.listdir('../raw_data')
 
 # Number of files 
 n_files = len(files)
