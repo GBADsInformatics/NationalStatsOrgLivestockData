@@ -27,7 +27,20 @@ Run `python get_info.py` for all information to be printed in terminal.
 
 * csv_files.txt, ods_files.txt, pdf_files.txt etc. provide a list of the files that are in a given format
 
-## Handle files 
+## Extract data from files
+
+The next goal is to extract information from each dataset. The following is extracted from each dataset: 
+
+* Temporal range (years covered)
+* Periodicity (semi-annual, annual, etc.)
+* Spatial range (when subnational data is provided, what is represented?)
+* Species classes/classifications (for each data file, which classifications are reported)
+
+Because each dataset is heterogeneous in syntax and structure, extraction could not be automated across datasets for each country. 
+
+Information is extracted from datasets on a country-by-country basis meaning there was a script written for each country. Generalized functions were written to aid in this process. 
+
+The pecularities in each dataset were recorded to provide recommendations to improve the interoperability of datasets. 
 
 ### ods files
 
@@ -35,4 +48,5 @@ Run `python get_info.py` for all information to be printed in terminal.
 
 
 Author: Kassy Raymond
+
 Email: kraymond@uoguelph.ca
